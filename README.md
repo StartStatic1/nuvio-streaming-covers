@@ -1,17 +1,40 @@
-# Nuvio Streaming Covers
+# Nuvio — cards de streaming (home)
 
-Animated 640x400 rounded cards for the Nuvio home Streaming row.
-Loop: sliding doors open the official logo, hold, close, repeat.
+Cards animados 640×400, cantos arredondados no estilo da home do Nuvio.
+Animação em loop: portas deslizam, abrem o logo oficial, fecham e repetem.
 
-## Permanent links (jsDelivr CDN)
+## Arquivos
 
-- Netflix: https://cdn.jsdelivr.net/gh/StartStatic1/nuvio-streaming-covers@master/netflix.gif
-- Disney+: https://cdn.jsdelivr.net/gh/StartStatic1/nuvio-streaming-covers@master/disney-plus.gif
-- Apple TV+: https://cdn.jsdelivr.net/gh/StartStatic1/nuvio-streaming-covers@master/apple-tv.gif
-- Paramount+: https://cdn.jsdelivr.net/gh/StartStatic1/nuvio-streaming-covers@master/paramount-plus.gif
-- Globoplay: https://cdn.jsdelivr.net/gh/StartStatic1/nuvio-streaming-covers@master/globoplay.gif
+| Serviço | GIF (home) | MP4 (mais leve) |
+|---|---|---|
+| Netflix | `netflix.gif` | `netflix.mp4` |
+| Disney+ | `disney.gif` | `disney.mp4` |
+| Apple TV+ | `apple.gif` | `apple.mp4` |
+| Paramount+ | `paramount.gif` | `paramount.mp4` |
+| Globoplay | `globoplay.gif` | `globoplay.mp4` |
 
-Raw GitHub fallback:
-`https://raw.githubusercontent.com/StartStatic1/nuvio-streaming-covers/master/<file>.gif`
+Tamanho do card: **640 × 400 px**, radius ~56 px.
 
-Paste the URL in Cover image URL or Focus GIF URL.
+## Links permanentes (depois de enviar os arquivos para este repo)
+
+Raw GitHub:
+
+```
+https://raw.githubusercontent.com/StartStatic1/nuvio-streaming-covers/master/netflix.gif
+https://raw.githubusercontent.com/StartStatic1/nuvio-streaming-covers/master/disney-plus.gif
+https://raw.githubusercontent.com/StartStatic1/nuvio-streaming-covers/master/apple-tv.gif
+https://raw.githubusercontent.com/StartStatic1/nuvio-streaming-covers/master/paramount-plus.gif
+https://raw.githubusercontent.com/StartStatic1/nuvio-streaming-covers/master/globoplay.gif
+```
+
+jsDelivr (CDN, costuma ser mais estável no app):
+
+```
+https://cdn.jsdelivr.net/gh/StartStatic1/nuvio-streaming-covers@master/netflix.gif
+https://cdn.jsdelivr.net/gh/StartStatic1/nuvio-streaming-covers@master/disney-plus.gif
+https://cdn.jsdelivr.net/gh/StartStatic1/nuvio-streaming-covers@master/apple-tv.gif
+https://cdn.jsdelivr.net/gh/StartStatic1/nuvio-streaming-covers@master/paramount-plus.gif
+https://cdn.jsdelivr.net/gh/StartStatic1/nuvio-streaming-covers@master/globoplay.gif
+```
+
+Use o GIF no campo de capa / focus GIF da collection. O rótulo embaixo do card (Netflix, Disney+, etc.) continua no app.
